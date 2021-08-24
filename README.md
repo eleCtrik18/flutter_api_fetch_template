@@ -18,9 +18,7 @@ About JSON responses:
       key1: value1,
       key2: value2,
       key3: value3,
-    },
-
-    .....
+    }
 ] 
 
 Then, we use data[0]["name"], not data[0].name Unless we cast to an object that has the name property, we cannot use data[0].name
