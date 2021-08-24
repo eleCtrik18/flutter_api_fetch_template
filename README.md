@@ -38,7 +38,9 @@ We cast like this data = json.decode(response.body)
 }
 
 Here  json.decode will return a Map, not a List
+
 therefore we do:
- return <ModelClassname>.fromJson(jsonDecode(response.body));
+
+return <ModelClassname>.fromJson(jsonDecode(response.body));
 
 
